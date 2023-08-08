@@ -110,7 +110,7 @@ const TreatmentGallery = (props: Props) => {
           >
             {GalleryItems.map((x) => {
               return (
-                <SwiperSlide>
+                <SwiperSlide key={Math.random()}>
                   <TreatmentGalleryCard
                     imageRef={x.image}
                     key={Math.random()}

@@ -106,7 +106,7 @@ const Blog = (props: Props) => {
           >
             {b.map((x) => {
               return (
-                <SwiperSlide>
+                <SwiperSlide key={x.id}>
                   <div className="mt-6 mb-10 w-[300px] " key={x.id}>
                     <Image
                       src={x.url}
