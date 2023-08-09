@@ -84,17 +84,16 @@ const Home = (props: Props) => {
                 <span className="text-white">SkinCare -</span> Assistt
               </h3>
               <h1 className=" text-[50px] md xl:text-[65px] font-900 leading-[120%]">
-                <span className="text-white"> Hair Removal</span> <br /> in
+                <span className="text-white"> Hair Transplant</span> <br /> in
                 Ahmedabad
               </h1>
               <h5 className="text-[25px] text-white font-900 leading-[120%]">
-                We do moreLaser Hair Reductionthan anyone else.
+                We do more Laser Hair Reduction than anyone else.
               </h5>
             </div>
             <div>
               <Image src={HeadHair} alt="girl" />
             </div>
-            s
           </div>
         </div>
       </section>
@@ -130,7 +129,6 @@ const Home = (props: Props) => {
           attention.
         </p>
         <p>
-          {" "}
           As one of the best hair transplant center in Ahmedabad, Gujarat, we
           provide you with all the information about{" "}
           <span className="text-redX">advanced hair transplant (AHT)</span>{" "}
