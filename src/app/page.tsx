@@ -9,7 +9,7 @@ import Different from "@/components/Different";
 import TestimonialContainer from "@/components/TestimonialContainer";
 import Contact from "@/components/Contact";
 import GetAQuote from "@/components/GetAQuote";
-import First from "../../public/images/Laser_2.png";
+import First from "../../public/images/trial.jpg";
 import Image from "next/image";
 import Firstt from "../../public/images/B_A_G_1.png";
 import Second from "../../public/images/B_A_G_2.png";
@@ -22,6 +22,7 @@ import google from "../../public/images/google.png";
 import justdial from "../../public/images/justdial.png";
 import facebook from "../../public/images/facebook.png";
 import HeadHair from "../../public/images/head_Hair.png";
+import logo from "../../public/images/footer-logo.png";
 
 type Props = {};
 
@@ -61,6 +62,17 @@ const a = [
 const Home = (props: Props) => {
   return (
     <>
+      <header className="bg-redX">
+        <div className="container mx-auto max-md:px-5 py-5 md:px-28 ">
+          <Image
+            src={logo}
+            height={100}
+            width={100}
+            alt="Logo"
+            // className="max-md:hidden ml-10"
+          />
+        </div>
+      </header>
       <section className=" bg-[#D24648] px-5 pt-10 xl:pt-0 pb-5 lg:h-[500px] xl:h-[650px]">
         <div className="relative container mx-auto  bg-[#D24648]">
           <h1 className=" hidden xl:block  absolute top-0 left-[12%]  text-gradient text-[100px] min-[1100px]:text-[130px] min-[1200px]:text-[160px] min-[1295px]:text-[180px] leading-[120%] font-900 text-center">
@@ -97,7 +109,7 @@ const Home = (props: Props) => {
           <hr className="h-px  bg-black border-0" />
         </div>
         <div className="min-[400px]:flex min-[400px]:justify-center min-[400px]:items-center sm:block ">
-          <div className="flex justify-center items-center mt-5 sm:hidden">
+          <div className="hidden ">
             <Image
               src={First}
               alt="First"
@@ -203,8 +215,8 @@ const Home = (props: Props) => {
 
       {/* Statistics */}
       <div className="flex flex-col items-center justify-center py-10">
-        <h3>Why Hair Transplant at New Touch Hair Care?</h3>
-        <div className="flex max-w-3xl items-center sm:justify-around justify-center px-5 container mx-auto sm:pt-16 pt-10 gap-5 flex-wrap">
+        <h3 className="px-5">Why Hair Transplant at New Touch Hair Care?</h3>
+        <div className="flex  items-center sm:justify-around justify-center px-5 container mx-auto sm:pt-16 pt-10 gap-5 flex-wrap">
           <div className="flex flex-col sm:items-start items-center ">
             <h3 className="text-redX">24+</h3>
             <p>In-House Doctors</p>
