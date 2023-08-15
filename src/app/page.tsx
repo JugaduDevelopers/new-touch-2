@@ -122,7 +122,7 @@ const Home = (props: Props) => {
           Get Hair Naturally with World’s Finest Advanced Hair Transplant (AHT)
           Technique
         </h2>
-        <p className="text-sm xl:text-lg font-300 pt-3">
+        <p className="text-sm xl:text-lg  pt-3">
           <span className="text-redX">At New Touch Hair Transplant Clinic</span>
           , our objective is to bring you the latest and the most effective
           techniques in hair transplant ensuring the highest level of care and
